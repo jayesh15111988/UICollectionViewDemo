@@ -10,10 +10,21 @@
 		E3B6FFBD23AF000F008FA3D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B6FFBC23AF000F008FA3D0 /* AppDelegate.swift */; };
 		E3B6FFBF23AF000F008FA3D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B6FFBE23AF000F008FA3D0 /* SceneDelegate.swift */; };
 		E3B6FFC123AF000F008FA3D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B6FFC023AF000F008FA3D0 /* ViewController.swift */; };
-		E3B6FFC423AF000F008FA3D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3B6FFC223AF000F008FA3D0 /* Main.storyboard */; };
 		E3B6FFC623AF0016008FA3D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3B6FFC523AF0016008FA3D0 /* Assets.xcassets */; };
 		E3B6FFC923AF0016008FA3D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3B6FFC723AF0016008FA3D0 /* LaunchScreen.storyboard */; };
 		E3B6FFD423AF0017008FA3D0 /* UICollectionViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B6FFD323AF0017008FA3D0 /* UICollectionViewDemoTests.swift */; };
+		E3B6FFDF23AF031A008FA3D0 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B6FFDE23AF031A008FA3D0 /* ProfileCell.swift */; };
+		E3B6FFE123AF0590008FA3D0 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B6FFE023AF0590008FA3D0 /* Profile.swift */; };
+		E3B6FFED23AF087C008FA3D0 /* graduate.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B6FFE323AF087A008FA3D0 /* graduate.png */; };
+		E3B6FFEE23AF087C008FA3D0 /* basketball.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B6FFE423AF087A008FA3D0 /* basketball.png */; };
+		E3B6FFEF23AF087C008FA3D0 /* geometry.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B6FFE523AF087B008FA3D0 /* geometry.png */; };
+		E3B6FFF023AF087C008FA3D0 /* chemistry.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B6FFE623AF087B008FA3D0 /* chemistry.png */; };
+		E3B6FFF123AF087C008FA3D0 /* history.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B6FFE723AF087B008FA3D0 /* history.png */; };
+		E3B6FFF223AF087C008FA3D0 /* geography.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B6FFE823AF087B008FA3D0 /* geography.png */; };
+		E3B6FFF323AF087C008FA3D0 /* theater.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B6FFE923AF087B008FA3D0 /* theater.png */; };
+		E3B6FFF423AF087C008FA3D0 /* astronomy.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B6FFEA23AF087B008FA3D0 /* astronomy.png */; };
+		E3B6FFF523AF087C008FA3D0 /* microscope.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B6FFEB23AF087B008FA3D0 /* microscope.png */; };
+		E3B6FFF623AF087C008FA3D0 /* trophy.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B6FFEC23AF087B008FA3D0 /* trophy.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +42,24 @@
 		E3B6FFBC23AF000F008FA3D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3B6FFBE23AF000F008FA3D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E3B6FFC023AF000F008FA3D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E3B6FFC323AF000F008FA3D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3B6FFC523AF0016008FA3D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3B6FFC823AF0016008FA3D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3B6FFCA23AF0016008FA3D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3B6FFCF23AF0017008FA3D0 /* UICollectionViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3B6FFD323AF0017008FA3D0 /* UICollectionViewDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewDemoTests.swift; sourceTree = "<group>"; };
 		E3B6FFD523AF0017008FA3D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3B6FFDE23AF031A008FA3D0 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		E3B6FFE023AF0590008FA3D0 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		E3B6FFE323AF087A008FA3D0 /* graduate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graduate.png; sourceTree = "<group>"; };
+		E3B6FFE423AF087A008FA3D0 /* basketball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basketball.png; sourceTree = "<group>"; };
+		E3B6FFE523AF087B008FA3D0 /* geometry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = geometry.png; sourceTree = "<group>"; };
+		E3B6FFE623AF087B008FA3D0 /* chemistry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chemistry.png; sourceTree = "<group>"; };
+		E3B6FFE723AF087B008FA3D0 /* history.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = history.png; sourceTree = "<group>"; };
+		E3B6FFE823AF087B008FA3D0 /* geography.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = geography.png; sourceTree = "<group>"; };
+		E3B6FFE923AF087B008FA3D0 /* theater.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theater.png; sourceTree = "<group>"; };
+		E3B6FFEA23AF087B008FA3D0 /* astronomy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = astronomy.png; sourceTree = "<group>"; };
+		E3B6FFEB23AF087B008FA3D0 /* microscope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = microscope.png; sourceTree = "<group>"; };
+		E3B6FFEC23AF087B008FA3D0 /* trophy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trophy.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +101,15 @@
 		E3B6FFBB23AF000F008FA3D0 /* UICollectionViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E3B6FFE223AF05DA008FA3D0 /* Images */,
 				E3B6FFBC23AF000F008FA3D0 /* AppDelegate.swift */,
 				E3B6FFBE23AF000F008FA3D0 /* SceneDelegate.swift */,
 				E3B6FFC023AF000F008FA3D0 /* ViewController.swift */,
-				E3B6FFC223AF000F008FA3D0 /* Main.storyboard */,
 				E3B6FFC523AF0016008FA3D0 /* Assets.xcassets */,
 				E3B6FFC723AF0016008FA3D0 /* LaunchScreen.storyboard */,
 				E3B6FFCA23AF0016008FA3D0 /* Info.plist */,
+				E3B6FFDE23AF031A008FA3D0 /* ProfileCell.swift */,
+				E3B6FFE023AF0590008FA3D0 /* Profile.swift */,
 			);
 			path = UICollectionViewDemo;
 			sourceTree = "<group>";
@@ -97,6 +121,23 @@
 				E3B6FFD523AF0017008FA3D0 /* Info.plist */,
 			);
 			path = UICollectionViewDemoTests;
+			sourceTree = "<group>";
+		};
+		E3B6FFE223AF05DA008FA3D0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E3B6FFEA23AF087B008FA3D0 /* astronomy.png */,
+				E3B6FFE423AF087A008FA3D0 /* basketball.png */,
+				E3B6FFE623AF087B008FA3D0 /* chemistry.png */,
+				E3B6FFE823AF087B008FA3D0 /* geography.png */,
+				E3B6FFE523AF087B008FA3D0 /* geometry.png */,
+				E3B6FFE323AF087A008FA3D0 /* graduate.png */,
+				E3B6FFE723AF087B008FA3D0 /* history.png */,
+				E3B6FFEB23AF087B008FA3D0 /* microscope.png */,
+				E3B6FFE923AF087B008FA3D0 /* theater.png */,
+				E3B6FFEC23AF087B008FA3D0 /* trophy.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,9 +221,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3B6FFF023AF087C008FA3D0 /* chemistry.png in Resources */,
 				E3B6FFC923AF0016008FA3D0 /* LaunchScreen.storyboard in Resources */,
+				E3B6FFEF23AF087C008FA3D0 /* geometry.png in Resources */,
+				E3B6FFED23AF087C008FA3D0 /* graduate.png in Resources */,
+				E3B6FFEE23AF087C008FA3D0 /* basketball.png in Resources */,
+				E3B6FFF323AF087C008FA3D0 /* theater.png in Resources */,
 				E3B6FFC623AF0016008FA3D0 /* Assets.xcassets in Resources */,
-				E3B6FFC423AF000F008FA3D0 /* Main.storyboard in Resources */,
+				E3B6FFF623AF087C008FA3D0 /* trophy.png in Resources */,
+				E3B6FFF223AF087C008FA3D0 /* geography.png in Resources */,
+				E3B6FFF423AF087C008FA3D0 /* astronomy.png in Resources */,
+				E3B6FFF523AF087C008FA3D0 /* microscope.png in Resources */,
+				E3B6FFF123AF087C008FA3D0 /* history.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +251,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3B6FFC123AF000F008FA3D0 /* ViewController.swift in Sources */,
+				E3B6FFE123AF0590008FA3D0 /* Profile.swift in Sources */,
+				E3B6FFDF23AF031A008FA3D0 /* ProfileCell.swift in Sources */,
 				E3B6FFBD23AF000F008FA3D0 /* AppDelegate.swift in Sources */,
 				E3B6FFBF23AF000F008FA3D0 /* SceneDelegate.swift in Sources */,
 			);
@@ -225,14 +277,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E3B6FFC223AF000F008FA3D0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E3B6FFC323AF000F008FA3D0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E3B6FFC723AF0016008FA3D0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
